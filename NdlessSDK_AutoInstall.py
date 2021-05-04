@@ -131,3 +131,4 @@ print(
     '\n\narm-none-eabi-gcc: fatal error: no input files\ncompilation terminated.\n#####################################\n\nnspire-gcc')
 os.system(pathCommand + ' nspire-gcc')
 print('\nScript completed in ' + str(int((time.time() - startTime) / 1000)) + 's')
+ 
